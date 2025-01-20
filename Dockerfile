@@ -1,4 +1,4 @@
-FROM node:16-alpine3.14 as js-builder
+FROM node:18-alpine3.14 as js-builder
 
 WORKDIR /usr/src/app/
 
